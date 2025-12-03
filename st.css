@@ -1,0 +1,36 @@
+div.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(8, 65, 62);
+}
+.item1{
+    height: 50px;
+    background-color: lightcoral;
+    width:50px ;
+}
+.item2{
+    height: 50px;
+    width:50px ;
+    background-color: lightskyblue;
+}
+.item3{
+    height: 50px;
+    width:50px ;
+    background-color: rgb(26, 202, 105);
+}
+.item4{
+    height: 50px;
+    width: 50px ;
+    background-color: lightyellow;
+}
+.item5{
+    height: 50px;
+    width:50px ;
+    background-color: rgb(58, 130, 14);
+}
